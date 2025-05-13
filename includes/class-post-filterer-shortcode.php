@@ -22,7 +22,7 @@ class Post_Filterer_Shortcode {
             return '<p>No posts found.</p>';
         }
 
-        $output = '<ul class="pfil-post-list">';
+        $output = '<ul class="wzpfil-post-list">';
         while ($query->have_posts()) {
             $query->the_post();
             $output .= sprintf(

@@ -10,6 +10,7 @@ class Post_Filterer_Plugin {
     private function __construct() {
         require_once WZPFIL_PATH . 'includes/class-post-filterer-shortcode.php';
         require_once WZPFIL_PATH . 'includes/class-post-filterer-widget.php';
+        require_once WZPFIL_PATH . 'includes/functions.php';
 
         add_action('widgets_init', [$this, 'register_widget']);
     }
