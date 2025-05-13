@@ -1,5 +1,5 @@
 <?php
-namespace Pfil;
+namespace WZPFIL;
 
 use WP_Widget;
 

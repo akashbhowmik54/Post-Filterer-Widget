@@ -9,12 +9,12 @@
 
 defined('ABSPATH') || exit;
 
-define('PFIL_PATH', plugin_dir_path(__FILE__));
-define('PFIL_URL', plugin_dir_url(__FILE__));
+define('WZPFIL_PATH', plugin_dir_path(__FILE__));
+define('WZPFIL_URL', plugin_dir_url(__FILE__));
 
-require_once PFIL_PATH . 'includes/class-post-filterer.php';
+require_once WZPFIL_PATH . 'includes/class-post-filterer.php';
 
-function pfil_init_plugin() {
-    \Pfil\Post_Filterer_Plugin::get_instance();
+function wzpfil_init_plugin() {
+    \WZPFIL\Post_Filterer_Plugin::get_instance();
 }
-add_action('plugins_loaded', 'pfil_init_plugin');
+add_action('plugins_loaded', 'wzpfil_init_plugin');

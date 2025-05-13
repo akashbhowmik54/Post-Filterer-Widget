@@ -1,5 +1,5 @@
 <?php
-namespace Pfil;
+namespace WZPFIL;
 
 defined('ABSPATH') || exit;
 
@@ -8,8 +8,8 @@ class Post_Filterer_Plugin {
     private static $instance = null;
 
     private function __construct() {
-        require_once PFIL_PATH . 'includes/class-post-filterer-shortcode.php';
-        require_once PFIL_PATH . 'includes/class-post-filterer-widget.php';
+        require_once WZPFIL_PATH . 'includes/class-post-filterer-shortcode.php';
+        require_once WZPFIL_PATH . 'includes/class-post-filterer-widget.php';
 
         add_action('widgets_init', [$this, 'register_widget']);
     }
