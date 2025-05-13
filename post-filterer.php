@@ -15,6 +15,6 @@ define('WZPFIL_URL', plugin_dir_url(__FILE__));
 require_once WZPFIL_PATH . 'includes/class-post-filterer.php';
 
 function wzpfil_init_plugin() {
-    \WZPFIL\Post_Filterer_Plugin::get_instance();
+    \WZPFIL\WZPFIL_Post_Filterer_Plugin::get_instance();
 }
 add_action('plugins_loaded', 'wzpfil_init_plugin');

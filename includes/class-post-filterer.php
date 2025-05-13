@@ -23,6 +23,6 @@ class WZPFIL_Post_Filterer_Plugin {
     }
 
     public function register_widget(): void {
-        register_widget(Post_Filterer_Widget::class);
+        register_widget(WZPFIL_Post_Filterer_Widget::class);
     }
 }

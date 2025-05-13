@@ -64,4 +64,4 @@ class WZPFIL_Post_Filterer_Shortcode {
     }
 }
 
-new Post_Filterer_Shortcode();
+new WZPFIL_Post_Filterer_Shortcode();
