@@ -3,7 +3,7 @@ namespace WZPFIL;
 
 defined('ABSPATH') || exit;
 
-class Post_Filterer_Plugin {
+class WZPFIL_Post_Filterer_Plugin {
 
     private static $instance = null;
 

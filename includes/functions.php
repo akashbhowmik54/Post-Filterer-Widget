@@ -10,4 +10,4 @@ function wzpfil_track_post_views() {
         update_post_meta($post->ID, 'views', $views);
     }
 }
-add_action('wp_head', 'wzpfil_track_post_views');
+add_action('template_redirect', 'wzpfil_track_post_views');

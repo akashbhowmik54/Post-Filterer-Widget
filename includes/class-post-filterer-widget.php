@@ -5,7 +5,7 @@ use WP_Widget;
 
 defined('ABSPATH') || exit;
 
-class Post_Filterer_Widget extends WP_Widget {
+class WZPFIL_Post_Filterer_Widget extends WP_Widget {
 
     public function __construct() {
         parent::__construct(

@@ -3,7 +3,7 @@ namespace WZPFIL;
 
 defined('ABSPATH') || exit;
 
-class Post_Filterer_Shortcode {
+class WZPFIL_Post_Filterer_Shortcode {
 
     public function __construct() {
         add_shortcode('post_filterer', [$this, 'render_shortcode']);
